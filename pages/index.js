@@ -34,7 +34,7 @@ export default function Home1() {
                 <Testimonial1 />
                 <Blog1 />
                 <Newsteller1 />
-                <FloatingMenu handleFloating={handleFloating} isFloating={isFloating} />
+                {/* <FloatingMenu handleFloating={handleFloating} isFloating={isFloating} /> */}
             </Layout>
         </>
     )

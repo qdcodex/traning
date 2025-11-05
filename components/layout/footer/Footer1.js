@@ -1,31 +1,28 @@
 import Link from "next/link"
 
-export default function Footer1({ }) {
+export default function Footer1() {
     return (
         <>
             <div className="footer_area" id="footer_contents">
                 <div className="footer_widgets_wrap bg_dark_2">
-                    {/*===============spacing==============*/}
                     <div className="pd_top_80" />
-                    {/*===============spacing==============*/}
+
                     <div className="container">
                         <div className="row">
+                            {/* Column 1 - About */}
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                 <div className="footer_widgets about_company light_color">
                                     <div className="about_company_inner">
                                         <div className="footer_logo">
-                                            <Link href="#" >
+                                            <Link href="/">
                                                 <img src="/assets/images/logo-white.png" className="img-fluid" alt="logo" />
                                             </Link>
-                                            {/*===============spacing==============*/}
                                             <div className="pd_bottom_30" />
-                                            {/*===============spacing==============*/}
                                         </div>
                                         <div className="content_box">
                                             <p>
-                                                Duty the obligations of business will frequently occur that pleasure have
-                                                too
-                                                repudiated annoyances endures accepted.
+                                                We are a trusted manpower agency providing skilled and unskilled workers
+                                                across various industries — connecting talent with opportunity globally.
                                             </p>
                                             <div className="consulting">
                                                 <div className="image">
@@ -34,7 +31,7 @@ export default function Footer1({ }) {
                                                 <div className="help_con">
                                                     <h6>Need Help?</h6>
                                                     <h2>
-                                                        <Link href="#" > Free Consultation</Link>
+                                                        <Link href="/contact">Free Consultation</Link>
                                                     </h2>
                                                 </div>
                                             </div>
@@ -42,178 +39,114 @@ export default function Footer1({ }) {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Column 2 - Company */}
+                            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div className="footer_widgets wid_tit style_one">
+                                    <div className="fo_wid_title">
+                                        <h2>Company</h2>
+                                    </div>
+                                </div>
+                                <div className="pd_bottom_25" />
+                                <div className="footer_widgets navigation_foo light_color style_one">
+                                    <div className="navigation_foo_box">
+                                        <ul className="menu">
+                                            <li><Link href="/"  className="text-white">Home</Link></li>
+                                            <li><Link href="/about-us"  className="text-white">About Us</Link></li>
+                                            <li><Link href="/services"  className="text-white">Services</Link></li>
+                                            <li><Link href="/industries" className="text-white">Industries</Link></li>
+                                            <li><Link href="/contact" className="text-white">Contact</Link></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Column 3 - Services */}
+                            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div className="footer_widgets wid_tit style_one">
+                                    <div className="fo_wid_title">
+                                        <h2>Our Services</h2>
+                                    </div>
+                                </div>
+                                <div className="pd_bottom_25" />
+                                <div className="footer_widgets navigation_foo light_color style_one">
+                                    <div className="navigation_foo_box">
+                                        <ul className="menu">
+                                            <li><Link href="/services/local-recruitment" className="text-white">Local Recruitment</Link></li>
+                                            <li><Link href="/services/overseas-recruitment" className="text-white">Overseas Recruitment</Link></li>
+                                            <li><Link href="/services/temporary-staffing" className="text-white">Temporary Staffing</Link></li>
+                                            <li><Link href="/services/permanent-staffing" className="text-white">Permanent Staffing</Link></li>
+                                            <li><Link href="/services/hr-consulting" className="text-white">HR Consulting</Link></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Column 4 - Contact Info */}
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                 <div className="footer_widgets wid_tit style_one">
                                     <div className="fo_wid_title">
                                         <h2>Get In Touch</h2>
                                     </div>
                                 </div>
-                                {/*===============spacing==============*/}
                                 <div className="pd_bottom_25" />
-                                {/*===============spacing==============*/}
                                 <div className="footer_widgets get_in_touch_foo light_color">
                                     <div className="get_intouch_inrfo">
                                         <div className="foo_cont_inner">
                                             <div className="top">
-                                                <h6> Location</h6>
-                                                <p>
-                                                    280 Granite Run Drive Suite #200
-                                                    Lancaster, PA 1760
-                                                </p>
+                                                <h6>Location</h6>
+                                                <p>123 Workforce Avenue, Business Bay, Dubai, UAE</p>
                                             </div>
                                             <div className="bottom">
-                                                <h6> Contact</h6>
+                                                <h6>Contact</h6>
                                                 <div className="con_content">
-                                                    <h5> Phone :</h5>
-                                                    <Link href="/tel:+9806071234"> +98 060 712 34</Link>
+                                                    <h5>Phone:</h5>
+                                                    <Link href="tel:+971501234567">+971 50 123 4567</Link>
                                                 </div>
                                                 <div className="con_content">
-                                                    <h5> Mail Us :</h5>
-                                                    <Link href="/tel:sendmail@creote.com"> sendmail@creote.com</Link>
+                                                    <h5>Email:</h5>
+                                                    <Link href="mailto:info@manpoweragency.com">info@manpoweragency.com</Link>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-                                <div className="footer_widgets wid_tit style_one">
-                                    <div className="fo_wid_title">
-                                        <h2>Company</h2>
-                                    </div>
-                                </div>
-                                {/*===============spacing==============*/}
-                                <div className="pd_bottom_25" />
-                                {/*===============spacing==============*/}
-                                <div className="footer_widgets clearfix navigation_foo light_color style_one">
-                                    <div className="navigation_foo_box">
-                                        <div className="navigation_foo_inner">
-                                            <ul className="menu">
-                                                <li><Link href="#">Home</Link></li>
-                                                <li><Link href="#">About Us</Link></li>
-                                                <li><Link href="#">Contact</Link></li>
-                                                <li><Link href="#">Professionals</Link></li>
-                                                <li><Link href="#">Insights</Link></li>
-                                                <li><Link href="#">HR Solutions</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-                                <div className="footer_widgets wid_tit style_one">
-                                    <div className="fo_wid_title">
-                                        <h2>Information</h2>
-                                    </div>
-                                </div>
-                                {/*===============spacing==============*/}
-                                <div className="pd_bottom_25" />
-                                {/*===============spacing==============*/}
-                                <div className="footer_widgets clearfix navigation_foo light_color style_one">
-                                    <div className="navigation_foo_box">
-                                        <div className="navigation_foo_box">
-                                            <div className="navigation_foo_inner">
-                                                <ul className="menu">
-                                                    <li><Link href="#">How it’s Work</Link></li>
-                                                    <li><Link href="#">Partners</Link></li>
-                                                    <li><Link href="#">Testimonials</Link></li>
-                                                    <li><Link href="#">Key Areas</Link></li>
-                                                    <li><Link href="#">Case Studies</Link></li>
-                                                    <li><Link href="#">Pricing</Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-                                <div className="footer_widgets wid_tit style_one">
-                                    <div className="fo_wid_title">
-                                        <h2>Essentials</h2>
-                                    </div>
-                                </div>
-                                {/*===============spacing==============*/}
-                                <div className="pd_bottom_25" />
-                                {/*===============spacing==============*/}
-                                <div className="footer_widgets clearfix navigation_foo light_color style_one">
-                                    <div className="navigation_foo_box">
-                                        <div className="navigation_foo_inner">
-                                            <ul className="menu">
-                                                <li><Link href="#">Careers</Link></li>
-                                                <li><Link href="#">Infrastructure</Link></li>
-                                                <li><Link href="#">Client Support</Link></li>
-                                                <li><Link href="#">Privacy Policy</Link></li>
-                                                <li><Link href="#">Terms of Use</Link></li>
-                                                <li><Link href="#">Sitemap</Link></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/*===============spacing==============*/}
+
                     <div className="pd_bottom_50" />
-                    {/*===============spacing==============*/}
                 </div>
+
+                {/* Copyright Bar */}
                 <div className="creote-footer-copyright bg_dark_3">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12">
-                                {/*===============spacing==============*/}
                                 <div className="pd_top_10" />
-                                {/*===============spacing==============*/}
                                 <div className="footer_copy_content color_white">
-                                    © {new Date().getFullYear()} <Link href="https://themeforest.net/user/steelthemes">Steelthemes.</Link> All Rights
-                                    Reserved.
+                                    © {new Date().getFullYear()} <Link href="/">Manpower Agency</Link>. All Rights Reserved.
                                 </div>
-                                {/*===============spacing==============*/}
                                 <div className="pd_bottom_10" />
-                                {/*===============spacing==============*/}
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 text-md-end">
-                                {/*===============spacing==============*/}
                                 <div className="pd_top_10" />
-                                {/*===============spacing==============*/}
                                 <div className="footer_copy_content_right">
                                     <div className="social_media_v_one">
                                         <ul>
-                                            <li>
-                                                <Link href="#">
-                                                    <span className="fa fa-facebook" />
-                                                    <small>facebook</small>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <span className="fa fa-twitter" />
-                                                    <small>twitter</small>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <span className="fa fa-skype" />
-                                                    <small>skype</small>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="#">
-                                                    <span className="fa fa-instagram" />
-                                                    <small>instagram</small>
-                                                </Link>
-                                            </li>
+                                            <li><Link href="#"><span className="fa fa-facebook" /></Link></li>
+                                            <li><Link href="#"><span className="fa fa-twitter" /></Link></li>
+                                            <li><Link href="#"><span className="fa fa-linkedin" /></Link></li>
+                                            <li><Link href="#"><span className="fa fa-instagram" /></Link></li>
                                         </ul>
                                     </div>
                                 </div>
-                                {/*===============spacing==============*/}
                                 <div className="pd_bottom_10" />
-                                {/*===============spacing==============*/}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

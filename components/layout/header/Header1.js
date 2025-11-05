@@ -64,8 +64,8 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                             <div className="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                                 <div className="header_logo_box">
                                     <Link href="/" className="logo navbar-brand">
-                                        <img src="/assets/images/logo-default.png" alt="Creote Elementor" className="logo_default" />
-                                        <img src="/assets/images/logo-default.png" alt="Creote Elementor" className="logo__sticky" />
+                                        <img src="/assets/images/logo.png" alt="Creote Elementor" className="logo_default" />
+                                        <img src="/assets/images/logo.png" alt="Creote Elementor" className="logo__sticky" />
                                     </Link>
                                 </div>
                             </div>
@@ -83,13 +83,13 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                                     </div>
                                     <div className="header_right_content">
                                         <ul>
-                                            <li>
+                                            {/* <li>
                                                 <button type="button" className="search-toggler" onClick={handleSearch}><i className="icon-search" /></button>
-                                            </li>
-                                            <li className="header-button">
+                                            </li> */}
+                                            {/* <li className="header-button">
                                                 <Link href="#" className="theme-btn one"> Get In Touch
                                                 </Link>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <button type="button" onClick={handleContactPopup} className="contact-toggler"><i className="icon-bar" /></button>
                                             </li>
