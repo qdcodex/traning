@@ -8,7 +8,7 @@ const PortfolioFilter1Col = dynamic(() => import('@/components/elements/Portfoli
 export default function Project1Grid() {
     return (
         <>
-            <Layout breadcrumbTitle="1 Column Grid">
+            <Layout breadcrumbTitle="Job Seekers">
                 <div>
                     <section className="project_all filt_style_two filter_enabled">
                         {/*===============spacing==============*/}
