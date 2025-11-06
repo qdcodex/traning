@@ -125,7 +125,7 @@ export default function Footer1() {
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="pd_top_10" />
                                 <div className="footer_copy_content color_white">
-                                    © {new Date().getFullYear()} <Link href="/">Manpower Agency</Link>. All Rights Reserved.
+                                    © {new Date().getFullYear()} <Link href="/">QDCODEX</Link>. All Rights Reserved.
                                 </div>
                                 <div className="pd_bottom_10" />
                             </div>
