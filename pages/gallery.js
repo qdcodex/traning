@@ -9,7 +9,7 @@ export default function Project2Grid() {
 
     return (
         <>
-            <Layout breadcrumbTitle="2 Column Grid">
+            <Layout breadcrumbTitle="Gallery">
                 <div>
                     <section className="project_all filt_style_four filter_enabled">
                         <div className="container">
