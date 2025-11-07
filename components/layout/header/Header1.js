@@ -39,16 +39,16 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                                             <div className="text">
                                                 <small>Share</small>
                                                 <Link href="#" >
-                                                    <small>Fb</small>
+                                                    <small>FB</small>
                                                 </Link>
                                                 <Link href="#" >
-                                                    <small>Tw</small>
+                                                    <small>X</small>
                                                 </Link>
                                                 <Link href="#" >
-                                                    <small>Sk</small>
+                                                    <small>LI</small>
                                                 </Link>
                                                 <Link href="#" >
-                                                    <small>Te</small>
+                                                    <small>IG</small>
                                                 </Link>
                                             </div>
                                         </div>
