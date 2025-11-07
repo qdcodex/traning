@@ -124,12 +124,12 @@ export default function Contact() {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#"> <span className="fa fa-twitter" />
+                                                <Link href="#"> <span className="fa fa-x" />
                                                     <small>twitter</small>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="#"> <span className="fa fa-skype" />
+                                                <Link href="#"> <span className="fa fa-linkedin" />
                                                     <small>skype</small>
                                                 </Link>
                                             </li>
