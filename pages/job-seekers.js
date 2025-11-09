@@ -2,62 +2,70 @@ import Layout from "@/components/layout/Layout"
 import dynamic from 'next/dynamic'
 import Head from "next/head";
 
-const PortfolioFilter2Col = dynamic(() => import('@/components/elements/PortfolioFilter2Col'), {
+const PortfolioFilter1Col = dynamic(() => import('@/components/elements/PortfolioFilter1Col'), {
     ssr: false,
 })
 
-export default function Project2Grid() {
-
+export default function Project1Grid() {
     return (
         <>
         <Head>
-        <title>Gallery | ABC Manpower Agency</title>
+        <title>Job Seekers | ABC Manpower Agency</title>
         <meta
           name="description"
-          content="Explore our gallery showcasing successful placements, training sessions, and global workforce achievements by ABC Manpower Agency."
+          content="Find your dream job with ABC Manpower Agency. We connect skilled job seekers with top employers across industries for local and overseas opportunities."
         />
         <meta
           name="keywords"
-          content="manpower agency gallery, recruitment photos, staffing services, overseas employment, workforce success stories, HR agency"
+          content="job seekers, manpower agency, overseas jobs, recruitment, employment opportunities, career placement, staffing agency"
         />
 
         {/* Open Graph / Facebook */}
-        <meta property="og:title" content="Gallery - ABC Manpower Agency" />
+        <meta
+          property="og:title"
+          content="Job Seekers - Find Employment with ABC Manpower Agency"
+        />
         <meta
           property="og:description"
-          content="See our work in action — view photos of successful recruitment drives, client collaborations, and workforce accomplishments."
+          content="Discover rewarding career opportunities with ABC Manpower Agency. Apply today and let us match your skills with the right employer."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="/assets/images/gallery/gallery-banner.jpg"
+          content="/assets/images/job-seekers/job-seekers-banner.jpg"
         />
-        <meta property="og:url" content="https://www.yourdomain.com/gallery" />
+        <meta
+          property="og:url"
+          content="https://www.yourdomain.com/job-seekers"
+        />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Gallery | ABC Manpower Agency" />
+        <meta
+          name="twitter:title"
+          content="Job Seekers | ABC Manpower Agency"
+        />
         <meta
           name="twitter:description"
-          content="Discover the achievements and milestones of ABC Manpower Agency through our gallery of success stories."
+          content="Explore new job openings and connect with trusted employers through ABC Manpower Agency."
         />
         <meta
           name="twitter:image"
-          content="/assets/images/gallery/gallery-banner.jpg"
+          content="/assets/images/job-seekers/job-seekers-banner.jpg"
         />
       </Head>
-            <Layout breadcrumbTitle="Gallery">
+            <Layout breadcrumbTitle="Job Seekers">
                 <div>
-                    <section className="project_all filt_style_four filter_enabled">
+                    <section className="project_all filt_style_two filter_enabled">
+                        {/*===============spacing==============*/}
+                        <div className="pd_top_90" />
+                        {/*===============spacing==============*/}
                         <div className="container">
-                            {/*===============spacing==============*/}
-                            <div className="pd_top_90" />
-                            {/*===============spacing==============*/}
-                            <PortfolioFilter2Col />
-                            {/*===============spacing==============*/}
-                            <div className="pd_bottom_70" />
-                            {/*===============spacing==============*/}
+                            <PortfolioFilter1Col />
                         </div>
+                        {/*===============spacing==============*/}
+                        <div className="pd_bottom_90" />
+                        {/*===============spacing==============*/}
                     </section>
                     {/*-newsteller-*/}
                     <section className="newsteller style_one bg_dark_1">

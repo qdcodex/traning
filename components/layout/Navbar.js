@@ -85,7 +85,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="menu-item  nav-item">
-          <Link href="/project-1-column-grid" className=" nav-link">
+          <Link href="/job-seekers" className=" nav-link">
             <span>Job Seekers</span>
           </Link>
         </li>

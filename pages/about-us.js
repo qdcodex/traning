@@ -67,9 +67,47 @@ export default function AboutUs() {
 
     return (
         <>
-            <Head>
-                <title>Creote - About Us</title>
-            </Head>
+           <Head>
+        <title>About Us | ABC Manpower Agency</title>
+        <meta
+          name="description"
+          content="Learn more about ABC Manpower Agency — a trusted leader in recruitment, staffing, and HR consulting services. Our mission is to connect great people with great companies."
+        />
+        <meta
+          name="keywords"
+          content="about ABC manpower agency, recruitment experts, staffing company, HR consultants, overseas hiring, manpower solutions"
+        />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:title" content="About ABC Manpower Agency" />
+        <meta
+          property="og:description"
+          content="Discover the story behind ABC Manpower Agency — empowering businesses with top talent through reliable recruitment and staffing services."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="/assets/images/about/about-banner.jpg"
+        />
+        <meta property="og:url" content="https://www.yourdomain.com/about-us" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About ABC Manpower Agency" />
+        <meta
+          name="twitter:description"
+          content="We are a professional manpower agency connecting skilled candidates with global employers. Learn more about our vision and values."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/about/about-banner.jpg"
+        />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://www.yourdomain.com/about-us" />
+
+       
+      </Head>
 
             <Layout breadcrumbTitle="About Us">
                 {/*-about-*/}

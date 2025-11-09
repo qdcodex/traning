@@ -1,9 +1,49 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Head from "next/head";
 
 export default function Contact() {
     return (
         <>
+        <Head>
+        <title>Contact Us | ABC Manpower Agency</title>
+        <meta
+          name="description"
+          content="Get in touch with ABC Manpower Agency for reliable recruitment, staffing, and workforce solutions. We’re here to help employers and job seekers connect efficiently."
+        />
+        <meta
+          name="keywords"
+          content="contact manpower agency, recruitment contact, HR services, staffing inquiry, job application, manpower support, ABC manpower"
+        />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:title" content="Contact Us - ABC Manpower Agency" />
+        <meta
+          property="og:description"
+          content="Reach out to ABC Manpower Agency for staffing, HR consulting, and job placement services. Let’s build your workforce together."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="/assets/images/contact/contact-banner.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.yourdomain.com/contact"
+        />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us | ABC Manpower Agency" />
+        <meta
+          name="twitter:description"
+          content="Contact ABC Manpower Agency for recruitment and staffing inquiries. We connect employers with skilled professionals worldwide."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/contact/contact-banner.jpg"
+        />
+      </Head>
             <Layout breadcrumbTitle="Contact">
                 <div>
                     <section className="contact-section">

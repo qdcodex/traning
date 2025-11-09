@@ -1,9 +1,51 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import Head from 'next/head'
 
 export default function Service() {
   return (
     <>
+    <Head>
+        <title>Industries We Serve | ABC Manpower Agency</title>
+        <meta
+          name="description"
+          content="ABC Manpower Agency provides professional staffing and recruitment services across multiple industries including construction, healthcare, IT, manufacturing, logistics, and more."
+        />
+        <meta
+          name="keywords"
+          content="industries we serve, manpower agency, staffing services, recruitment solutions, HR outsourcing, industrial workforce"
+        />
+        <meta
+          property="og:title"
+          content="Industries We Serve - ABC Manpower Agency"
+        />
+        <meta
+          property="og:description"
+          content="Explore the diverse industries we serve with expert recruitment and manpower solutions tailored to your business needs."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="/assets/images/industries/industries-we-serve.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.yourdomain.com/industries-we-serve"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Industries We Serve | ABC Manpower Agency"
+        />
+        <meta
+          name="twitter:description"
+          content="ABC Manpower Agency delivers staffing expertise across multiple industries with reliable and skilled workforce solutions."
+        />
+        <meta
+          name="twitter:image"
+          content="/assets/images/industries/industries-we-serve.jpg"
+        />
+      </Head>
       <Layout breadcrumbTitle="Industries We Serve">
         <div>
           {/*===============spacing==============*/}
