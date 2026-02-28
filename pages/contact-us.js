@@ -37,7 +37,7 @@ export default function Contact() {
                                                             <div className="col-sm-12">
                                                                 <div className="form-group">
                                                                     <label> Your Phone Number<br /></label>
-                                                                    <input type="text" name="subject" required="required" placeholder=" Subject  (Optional)" />
+                                                                    <input type="text" name="subject" required="required" placeholder=" Whatsapp Number *" />
                                                                 </div>
                                                             </div>
                                                             <div className="col-sm-12">
