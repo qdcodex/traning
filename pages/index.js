@@ -22,24 +22,24 @@ export default function Home1() {
         <>
             
       <Head>
-        <title>ABC Manpower Agency | Reliable Recruitment & Staffing Solutions</title>
+        <title>NAXORA | Empowering Careers & Businesses</title>
         <meta
           name="description"
-          content="ABC Manpower Agency provides expert recruitment, temporary staffing, overseas hiring, and HR consultancy services. Connecting employers with the right talent worldwide."
+          content="Empowering Careers & Businesses"
         />
         <meta
           name="keywords"
-          content="manpower agency, recruitment agency, staffing services, HR consultancy, overseas hiring, job placement, employment agency"
+          content="Empowering Careers & Businesses"
         />
 
         {/* Open Graph / Facebook */}
         <meta
           property="og:title"
-          content="ABC Manpower Agency | Trusted Recruitment & HR Solutions"
+          content="NAXORA | Empowering Careers & Businesses"
         />
         <meta
           property="og:description"
-          content="Empowering businesses with skilled manpower. ABC Manpower Agency offers recruitment, staffing, and HR consulting services across industries."
+          content="Empowering Careers & Businesses."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -52,11 +52,11 @@ export default function Home1() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="ABC Manpower Agency | Recruitment & Staffing Experts"
+          content="NAXORA | Empowering Careers & Businesses"
         />
         <meta
           name="twitter:description"
-          content="Connecting employers and job seekers through professional manpower solutions. Discover opportunities with ABC Manpower Agency."
+          content="Empowering Careers & Businesses."
         />
         <meta
           name="twitter:image"

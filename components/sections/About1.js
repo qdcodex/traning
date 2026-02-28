@@ -11,11 +11,12 @@ export default function About1() {
                         <div className="col-xl-6 col-lg-12">
                             <div className="title_all_box style_one dark_color">
                                 <div className="title_sections left">
-                                    <div className="before_title"> Intelligent </div>
-                                    <h2> Human Resources</h2>
-                                    <p> Our power of choice is untrammelled and when nothing prevents being able to
-                                        do what we
-                                        like best every pleasure.</p>
+                                    <div className="before_title"> NAXORA </div>
+                                    <h2> Empowering Careers & Businesses</h2>
+                                    <p> At NAXORA, we transform potential into performance. We don't just teach — we equip, train, 
+                                        and empower individuals and businesses for real-world success. Whether you're a student, 
+                                        job seeker, entrepreneur, or professional looking to upskill, 
+                                        your journey begins here..</p>
                                 </div>
                             </div>
                             {/*===============spacing==============*/}
@@ -29,11 +30,9 @@ export default function About1() {
                                     </div>
                                     <div className="content_box">
                                         <h2>
-                                            <Link href="#" >Claims of duty</Link>
+                                            <Link href="#" >Practical over theoretical</Link>
                                         </h2>
-                                        <p> Certain circumstances seds owing to the claims duty ourighteous
-                                            indignation and so
-                                            beguiled.</p>
+                                        <p> We focus on execution over explanation and skill over certificate.</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,11 +44,10 @@ export default function About1() {
                                     </div>
                                     <div className="content_box">
                                         <h2>
-                                            <Link href="#" > Accepted always </Link>
+                                            <Link href="#" > Growth over temporary success </Link>
                                         </h2>
-                                        <p> To take a trivial example, which of us ever undertakes get laborious
-                                            physical
-                                            exercise. </p>
+                                        <p> NAXORA is a strategic service coordination platform that connects individuals, 
+                                            institutions, and businesses with the right expertise for measurable growth.</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,10 +66,10 @@ export default function About1() {
                                         <div className="extra_content authour_box dark_color">
                                             <div className="authour_box_content">
                                                 <div className="image">
-                                                    <img src="/assets/images/signature.png" className="img-fluid sign_image" alt="authour Image" />
+                                                    <img src="/assets/images/riya.png" className="img-fluid sign_image" alt="authour Image" />
                                                 </div>
                                                 <div className="text">
-                                                    <h6>Liam Oliver, <span>Founder &amp; CEO of Qetus</span>
+                                                    <h6>RIYA MAX, <span>Founder &amp; CEO of NAXORA</span>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -106,10 +104,9 @@ export default function About1() {
                                                 </div>
                                                 <div className="content_inner">
                                                     <h2>
-                                                        <Link href="#"> Innovative HR Solutions </Link>
+                                                        <Link href="#"> Training Skills & Presentation </Link>
                                                     </h2>
-                                                    <p> Except too obtain some work advantages from it but whom has
-                                                        any rights.
+                                                    <p> We provide structured solutions that bridge the gap between learning and real-world success.
                                                     </p>
                                                     <Link href="#" className="read_more"> Read more </Link>
                                                 </div>
@@ -128,11 +125,9 @@ export default function About1() {
                                                 </div>
                                                 <div className="content_inner">
                                                     <h2>
-                                                        <Link href="#"> Leadership Development </Link>
+                                                        <Link href="#"> Business & Strategic Consulting </Link>
                                                     </h2>
-                                                    <p> Actual teachings of the great explorer of the truth masters
-                                                        human
-                                                        happiness.
+                                                    <p> We solve real challenges: lack of practical skills, career confusion, and limited growth direction.
                                                     </p>
                                                     <Link href="#" className="read_more"> Read more </Link>
                                                 </div>
