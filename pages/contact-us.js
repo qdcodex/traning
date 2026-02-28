@@ -36,13 +36,13 @@ export default function Contact() {
                                                             </div>
                                                             <div className="col-sm-12">
                                                                 <div className="form-group">
-                                                                    <label> Your Subject<br /></label>
+                                                                    <label> Your Phone Number<br /></label>
                                                                     <input type="text" name="subject" required="required" placeholder=" Subject  (Optional)" />
                                                                 </div>
                                                             </div>
                                                             <div className="col-sm-12">
                                                                 <div className="form-group">
-                                                                    <label> Your Message<br /></label>
+                                                                    <label> Query <br /></label>
                                                                     <textarea name="message" placeholder="Additional Information... (Optional) " rows={3} required="required" data-error="Please, leave us a message." defaultValue={""} />
                                                                     <div className="help-block with-errors" />
                                                                 </div>
@@ -76,7 +76,7 @@ export default function Contact() {
                                             <div className="contnet">
                                                 <h3> Post Address </h3>
                                                 <p>
-                                                    280 Granite Run Drive Suite #200 Lancaster, PA 1760
+                                                    QD Hub, Near Karumavilai CSI Church, Karungal
                                                 </p>
                                             </div>
                                         </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                                             <div className="contnet">
                                                 <h3> General Enquires </h3>
                                                 <p>
-                                                    Phone: +98 060 712 34 &amp; Email: sendmail@qetus.com
+                                                    Phone: +91-9787015703 &amp; Email: naxora06@gmail.com
                                                 </p>
                                             </div>
                                         </div>
