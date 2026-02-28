@@ -15,14 +15,14 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                                             <i className="icon-placeholder" />
                                             <div className="text">
                                                 <small>Location</small>
-                                                <span>61W Business Str Hobert, LA </span>
+                                                <span> QD Hub, Karungal </span>
                                             </div>
                                         </div>
                                         <div className="contntent email">
                                             <i className="icon-email" />
                                             <div className="text">
                                                 <small>Email</small>
-                                                <Link href="mailto:sendmail@creote.com">sendmail@creote.com</Link>
+                                                <Link href="mailto:naxora06@gmail.com"> naxora06@gmail.com</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -31,7 +31,7 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                                             <i className="icon-phone-call" />
                                             <div className="text">
                                                 <small>Phone</small>
-                                                <Link href="tel:+9806071234">+9806071234</Link>
+                                                <Link href="tel:+919787015703"> +919787015703</Link>
                                             </div>
                                         </div>
                                         <div className="contntent media">
