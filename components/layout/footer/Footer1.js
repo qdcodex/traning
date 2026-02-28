@@ -25,9 +25,8 @@ export default function Footer1() {
                     </div>
                     <div className="content_box">
                       <p>
-                        We are a trusted manpower agency providing skilled and
-                        unskilled workers across various industries — connecting
-                        talent with opportunity globally.
+                        At NAXORA, we transform potential into performance. 
+                        We don't just teach — we equip, train, and empower individuals and businesses for real-world success.
                       </p>
                       <div className="consulting">
                         <div className="image">
@@ -79,7 +78,7 @@ export default function Footer1() {
                           href="/industries-we-serve"
                           className="text-white"
                         >
-                          Industries We Serve
+                          Partnership
                         </Link>
                       </li>
                       <li>
@@ -108,7 +107,7 @@ export default function Footer1() {
                           href="/services/local-recruitment"
                           className="text-white"
                         >
-                          Local Recruitment
+                          Business Strategy & Startup Structuring
                         </Link>
                       </li>
                       <li>
@@ -116,7 +115,7 @@ export default function Footer1() {
                           href="/services/overseas-recruitment"
                           className="text-white"
                         >
-                          Overseas Recruitment
+                          Technology & IT Solutions Management
                         </Link>
                       </li>
                       <li>
@@ -124,7 +123,7 @@ export default function Footer1() {
                           href="/services/temporary-staffing"
                           className="text-white"
                         >
-                          Temporary Staffing
+                          Digital Growth Systems
                         </Link>
                       </li>
                       <li>
@@ -132,7 +131,7 @@ export default function Footer1() {
                           href="/services/permanent-staffing"
                           className="text-white"
                         >
-                          Permanent Staffing
+                          Training, Workshops & Ideathons
                         </Link>
                       </li>
                       <li>
@@ -140,7 +139,7 @@ export default function Footer1() {
                           href="/services/hr-consulting"
                           className="text-white"
                         >
-                          HR Consulting
+                          Execution & Partner Coordination
                         </Link>
                       </li>
                     </ul>
@@ -161,18 +160,18 @@ export default function Footer1() {
                     <div className="foo_cont_inner">
                       <div className="top">
                         <h6>Location</h6>
-                        <p>123 Workforce Avenue, Business Bay, Dubai, UAE</p>
+                        <p>QD Hub, Near Karumavilai CSI Church, Karungal</p>
                       </div>
                       <div className="bottom">
                         <h6>Contact</h6>
                         <div className="con_content">
                           <h5>Phone:</h5>
-                          <Link href="tel:+971501234567">+971 50 123 4567</Link>
+                          <Link href="tel:+919787015703">+919787015703</Link>
                         </div>
                         <div className="con_content">
                           <h5>Email:</h5>
-                          <Link href="mailto:info@manpoweragency.com">
-                            info@manpoweragency.com
+                          <Link href="mailto:naxora06@gmail.com">
+                            naxora06@gmail.com
                           </Link>
                         </div>
                       </div>
@@ -217,12 +216,12 @@ export default function Footer1() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="#">
+                        <Link href="www.linkedin.com/in/naxora-advisory-solutions-69a730399/">
                           <span className="fa fa-linkedin" />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#">
+                        <Link href="www.instagram.com/naxora06/">
                           <span className="fa fa-instagram" />
                         </Link>
                       </li>
