@@ -13,7 +13,7 @@ export default function Process1() {
                                 <div className="before_title">
                                     The Steps of
                                 </div>
-                                <h2>Recruitment Process</h2>
+                                <h2>Strategy Process</h2>
                             </div>
                             {/*===============spacing==============*/}
                             <div className="pd_bottom_30" />
@@ -31,10 +31,10 @@ export default function Process1() {
                                                 <img src="/assets/images/service-ico-3.png" className="img-fluid svg_image" alt="icon png" />
                                             </div>
                                         </div>
-                                        <h2><Link href="#" > Identifiying the Needs</Link >
+                                        <h2><Link href="#" > Understand the problem</Link >
                                         </h2>
                                     </div>
-                                    <p>Holds in these matters principles all selection right rejects.</p>
+                                    <p>We begin by deeply analyzing the problem.</p>
                                     <Link href="#" className="theme-btn two">Read more</Link >
                                 </div>
                             </div>
@@ -54,10 +54,10 @@ export default function Process1() {
                                                 <img src="/assets/images/process-icon-im-1.png" className="img-fluid svg_image" alt="icon png" />
                                             </div>
                                         </div>
-                                        <h2><Link href="#" > Preparing a Job Description
+                                        <h2><Link href="#" > Strategize Problems
                                         </Link ></h2>
                                     </div>
-                                    <p> Frequently occur that’s pleasures in have to repudiated.</p>
+                                    <p> Once the problem is clear, we design the right solution pathway.</p>
                                     <Link href="#" className="theme-btn two"> Read more </Link >
                                 </div>
                             </div>
@@ -77,10 +77,9 @@ export default function Process1() {
                                                 <img src="/assets/images/service-ico-2.png" className="img-fluid svg_image" alt="icon png" />
                                             </div>
                                         </div>
-                                        <h2><Link href="#" > Find a Talented
-                                            Candidate</Link ></h2>
+                                        <h2><Link href="#" > Execute the Solution</Link ></h2>
                                     </div>
-                                    <p> Fault with man who choose enjoy a annoying consequences. </p>
+                                    <p> We coordinate and manage execution through trusted partners. </p>
                                     <Link href="#" className="theme-btn two"> Read more </Link >
                                 </div>
                             </div>
@@ -100,11 +99,11 @@ export default function Process1() {
                                                 <img src="/assets/images/process-icon-im-2.png" className="img-fluid svg_image" alt="icon png" />
                                             </div>
                                         </div>
-                                        <h2><Link href="#" > Screening and Shortlisting
+                                        <h2><Link href="#" > Optimize the Outcome
                                         </Link >
                                         </h2>
                                     </div>
-                                    <p> Holds in these matters principles all selection right rejects.</p>
+                                    <p> After implementation, we refine and improve.</p>
                                     <Link href="#" className="theme-btn two"> Read more </Link >
                                 </div>
                             </div>
