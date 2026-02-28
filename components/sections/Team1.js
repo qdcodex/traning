@@ -52,8 +52,8 @@ export default function Team1() {
                                             </ul>
                                         </div>
                                         <div className="authour_details">
-                                            <span>Director </span>
-                                            <h6>Amelia Margaret</h6>
+                                            <span>Founder </span>
+                                            <h6>Riya Max</h6>
                                             <div className="button_view">
                                                 <Link href="#" className="theme-btn one">
                                                     View Profile
@@ -88,8 +88,8 @@ export default function Team1() {
                                             </ul>
                                         </div>
                                         <div className="authour_details">
-                                            <span>Team Leader </span>
-                                            <h6>Andrew Cameron</h6>
+                                            <span>Co Founder </span>
+                                            <h6>Altrin</h6>
                                             <div className="button_view">
                                                 <Link href="#" className="theme-btn one">
                                                     View Profile
@@ -124,8 +124,8 @@ export default function Team1() {
                                             </ul>
                                         </div>
                                         <div className="authour_details">
-                                            <span>Manager </span>
-                                            <h6>Sofia Charlotte</h6>
+                                            <span>Partners </span>
+                                            <h6>QDCODEX</h6>
                                             <div className="button_view">
                                                 <Link href="#" className="theme-btn one">
                                                     View Profile
