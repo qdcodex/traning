@@ -16,7 +16,7 @@ export default function Footer1() {
                     <div className="footer_logo">
                       <Link href="/">
                         <img
-                          src="/assets/images/logo-white.png"
+                          src="/assets/images/naxorab.png"
                           className="img-fluid"
                           alt="logo"
                         />
