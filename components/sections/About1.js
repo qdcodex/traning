@@ -66,7 +66,7 @@ export default function About1() {
                                         <div className="extra_content authour_box dark_color">
                                             <div className="authour_box_content">
                                                 <div className="image">
-                                                    <img src="/assets/images/riya.png" className="img-fluid sign_image" alt="authour Image" />
+                                                    <img src="/assets/images/signature.png" className="img-fluid sign_image" alt="authour Image" />
                                                 </div>
                                                 <div className="text">
                                                     <h6>RIYA MAX, <span>Founder &amp; CEO of NAXORA</span>
