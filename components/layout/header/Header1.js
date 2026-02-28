@@ -44,10 +44,10 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                                                 <Link href="#" >
                                                     <small>X</small>
                                                 </Link>
-                                                <Link href="#" >
+                                                <Link href="www.linkedin.com/in/naxora-advisory-solutions-69a730399/" >
                                                     <small>LI</small>
                                                 </Link>
-                                                <Link href="#" >
+                                                <Link href="www.instagram.com/naxora06/" >
                                                     <small>IG</small>
                                                 </Link>
                                             </div>
@@ -64,8 +64,8 @@ export default function Header1({ handleSearch, handleContactPopup, handleMobile
                             <div className="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                                 <div className="header_logo_box">
                                     <Link href="/" className="logo navbar-brand">
-                                        <img src="/assets/images/logo.png" alt="Creote Elementor" className="logo_default" />
-                                        <img src="/assets/images/logo.png" alt="Creote Elementor" className="logo__sticky" />
+                                        <img src="/assets/images/naxoraw.png" alt="Creote Elementor" className="logo_default" />
+                                        <img src="/assets/images/naxoraw.png" alt="Creote Elementor" className="logo__sticky" />
                                     </Link>
                                 </div>
                             </div>
