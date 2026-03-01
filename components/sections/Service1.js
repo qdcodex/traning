@@ -10,12 +10,11 @@ export default function Service1() {
                     <div className="row">
                         <div className="title_all_box style_one text-center dark_color">
                             <div className="title_sections">
-                                <div className="before_title">Leading</div>
+                                <div className="before_title">We don’t just train, we solve.</div>
                                 <h2>Effective Solutions</h2>
-                                <p>We work with your company to identify position requirements, implement
-                                    recruitment
-                                    programs, and <br /> initiate employee assessments that maximize recruitment
-                                    efforts </p>
+                                <p>At NAXORA, we understand the real challenges students, professionals, and businesses face today
+                                    <br /> We provide structured solutions that bridge the gap between learning and real-world success.
+                                </p>
                             </div>
                         </div>
                         {/*===============spacing==============*/}
