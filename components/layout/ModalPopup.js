@@ -100,7 +100,7 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                 <div className="abt_content">
                   <div className="logo">
                     <img
-                      src="/assets/images/logo.png"
+                      src="/assets/images/naxoraw.png"
                       alt="img"
                       className="company_logo_modal"
                     />
@@ -108,11 +108,9 @@ export default function ModalPopup({ isContactPopup, handleContactPopup }) {
                   <div className="text">
                     <p>
                       {" "}
-                      The great explorer of the truth, the master-builder of
-                      human happiness no one rejects dislikes avoids pleasure
-                      itself because it is pleasure but because know who do not
-                      those how to pursue pleasures rationally encounter
-                      consequences that are extremely painful desires to obtain.
+                      At NAXORA, we transform potential into performance. We don't just teach — we equip, train, and empower individuals and 
+                      businesses for real-world success. Whether you're a student, job seeker, entrepreneur, 
+                      or professional looking to upskill, your journey begins here.
                     </p>
                     <Link href="#">Read More</Link>
                   </div>
